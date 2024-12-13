@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather application</title>
+    <link rel="stylesheet" href="weather.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="topic">
+          <h2>Weather App</h2>
+        </div>
+        <div class="search-city">
+          <input type="search" id="enter-city" placeholder="Search Your City" />
+          <button id="search-btn">
+            <i class="fa fa-search search-icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="information">
+        <div><p>To get weather detaiil</p></div>
+        <div><h1>Search Your City .......</h1></div>
+      </div>
+    </div>
+    <div class="DisplayData">
+      <div class="showData"></div>
+    </div>
+
+    <p><img src="" alt="" /></p>
+    <script src="weather.js"></script>
+  </body>
+</html>
+
+<!-- api to get weather data -->
+<!-- https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=b431726f5f8a7e2f1456f5d480d43955&units=metric -->
+<!-- //https://api.openweathermap.org/data/2.5/forecast?lat=57&lon=-2.15&appid=b431726f5f8a7e2f1456f5d480d43955&units=metric -->
+<!-- //weather api http://api.weatherapi.com/v1/current.json?key=b2702472c48841b1823172928240304&q=London&aqi=yes -->
+<!-- https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid={b431726f5f8a7e2f1456f5d480d43955} -->
+<!-- https://api.openweathermap.org/data/2.5/weather?lat=57&lon=-2.15&appid={API key}&units=metric -->
